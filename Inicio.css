@@ -1,0 +1,79 @@
+body{
+    background-color:rgb(229, 249, 255);
+    box-sizing: border-box;
+}
+
+.color{
+    background-color: rgb(245, 142, 188);
+}
+
+.colorletras{
+     color: purple !important;
+     font-family:Akaya Telivigala, cursive ;
+     font-size: 30px;
+     letter-spacing: 1px;
+     margin: 20px !important;
+
+}
+
+.navbar-collapse li :hover{
+    text-decoration: overline;
+    color: rgb(229, 249, 255) !important;
+}
+
+.style-title{
+    color: purple;
+    text-align: center;
+    font-family:Akaya Telivigala, cursive;
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin: 50px;
+}
+
+.fondo{
+    background-image: url(imagenes/fondoimg4.jpg);
+}
+.Titulo-producto{  
+    text-align: center;
+    display: flex; 
+    font-family: 'Akaya Telivigala', cursive;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+.carousel-item img{
+    width: 50%;
+    height: 50%;
+    margin: 0px 0% 0% 27%;
+}
+
+.form-inline{
+    background-color: rgb(245, 142, 188);
+}
+
+.Descripción-producto{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.Textofooter{
+    padding-top: 8px;
+    width: 100%;
+    font-family: cursive;
+    text-align: center;
+    font-size: 15px;
+    height: 80px;
+    background-color: rgb(229, 249, 255);
+    
+}
+
+

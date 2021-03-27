@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="Inicio.css">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+
+<!-- Inicio -->
+<nav class="navbar navbar-expand-lg navbar-light color">
+    <a class="navbar-brand" href="#"><img src="imagenes/Logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active color-letter">
+          <a class="nav-link colorletras" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link colorletras" href="index.html#Productos">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link colorletras" href="#">Formulario</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link colorletras" href="Nosotros.html">Nosotros</a>
+        </li>
+      </ul>
+
+      <!-- Buscar -->
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+    
+  </nav>
+
+    <!-- Titulo -->
+  <article class="style-title" id="Inicio">
+  </h1>Pazafira</h1>
+</article>
+
+
+
+    <!-- Formulario -->
+      <div>
+    <form class="container colorform">
+
+      <div class="form-group" style="font-family: 'Akaya Telivigala', cursive" >
+          <label for="Nombre">Nombre completo</label>
+          <input type="text" class="form-control" id="Nombre" placeholder="Escribe tu nombre">
+        </div>
+        <div class="form-group" style="font-family: 'Akaya Telivigala', cursive">
+          <label for="Email">Correo electronico</label>
+          <input type="email" class="form-control" id="Email" placeholder="name@example.com">
+        </div>
+        <div class="form-group" style="font-family: 'Akaya Telivigala', cursive">
+          <label for="Celular">Celular</label>
+          <input type="number" class="form-control" id="Celular" placeholder="Escribe tu celular">
+        </div>
+        <div class="form-group" style="font-family: 'Akaya Telivigala', cursive">
+          <label for="EscogerProducto">Escoge tu producto</label>
+          <select class="form-control" id="EscogerProducto">
+            <option>Posillo</option>
+            <option>Botella</option>
+          </select>
+        </div>
+        <div class="form-group" style="font-family: 'Akaya Telivigala', cursive">
+          <label for="EscogerFrase">Escoge tu frase</label>
+          <select multiple class="form-control" id="EscogerFrase">
+            <option>Tus ojos brillan como estrellas</option>
+            <option>Margaritas y una botella de vino, ahí comienza mi triste historia</option>
+            <option>Ni si quiera la luz de la luna es tan brillante como tu </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="FrasePersonalizada">Escribe tu propia frase si no deseas ninguna de las anteriores</label>
+          <textarea class="form-control" id="FrasePersonalizada" rows="3"></textarea>
+        </div>
+      </form>
+      <div class="container boton-div">
+      <input class="container boton" type="submit" onclick="EnviarFormulario()"value="Enviar">
+    </div>
+      <br> <br>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Siguenos en facebook</h5>
+              <a href="https://www.facebook.com/Pazafira-102222331946172"><img src="imagenes/facebook.png" alt="" height="90px" width="90px"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Siguenos en instagram</h5>
+              <a href="https://www.instagram.com/pazafira/" ><img src="imagenes/instagram.png" alt="" height="90px" width="90px"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="Textofooter">
+        <p>
+            @copyrigth 2021 Ani Sofía Zamudio <br> 
+            TODOS LOS DERECHOS RESERVADOS. BOGOTÁ-COLOMBIA
+        </p>
+    </div>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="formulario.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+</body>
+</html>
