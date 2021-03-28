@@ -8,4 +8,6 @@
 * CSS
 * JavaScript
 
+Puedes ver la página web públicada [aquí](https://azamudi4.github.io/ProyectoFinalUnidad2/)
+
 *Hecho por Ani*
