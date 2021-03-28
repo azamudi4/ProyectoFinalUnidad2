@@ -8,4 +8,4 @@
 * CSS
 * JavaScript
 
-Puedes encontrar el link de la página [aquí] (https://azamudi4.github.io/ProyectoFinalUnidad2/)
+Puedes encontrar el link de la página [aquí](https://azamudi4.github.io/ProyectoFinalUnidad2/)
