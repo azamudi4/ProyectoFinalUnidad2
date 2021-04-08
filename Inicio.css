@@ -1,24 +1,29 @@
 body{
-    background-color:rgb(229, 249, 255);
+    background-image: url(imagenes/fondo2.jpg);
     box-sizing: border-box;
+    background-attachment: fixed;
+    
 }
 
 .color{
-    background-color: rgb(245, 142, 188);
+    background-color: #c0e5e8a2;
+    box-sizing: border-box;
+    background-attachment: fixed;
 }
+
 
 .colorletras{
      color: purple !important;
      font-family:Akaya Telivigala, cursive ;
      font-size: 30px;
      letter-spacing: 1px;
-     margin: 20px !important;
+     margin: 10px !important;
 
 }
 
 .navbar-collapse li :hover{
     text-decoration: overline;
-    color: rgb(229, 249, 255) !important;
+    color: rgb(11, 189, 243) !important;
 }
 
 .style-title{
@@ -30,9 +35,9 @@ body{
     margin: 50px;
 }
 
-.fondo{
+/* .fondo{
     background-image: url(imagenes/fondoimg4.jpg);
-}
+} */
 .Titulo-producto{  
     text-align: center;
     display: flex; 
@@ -47,9 +52,9 @@ body{
     margin: 0px 0% 0% 27%;
 }
 
-.form-inline{
+/* .form-inline{
     background-color: rgb(245, 142, 188);
-}
+} */
 
 .Descripción-producto{
     display: flex;
@@ -72,7 +77,7 @@ body{
     text-align: center;
     font-size: 15px;
     height: 80px;
-    background-color: rgb(229, 249, 255);
+    background-color: #c0e5e8a2;
     
 }
 
