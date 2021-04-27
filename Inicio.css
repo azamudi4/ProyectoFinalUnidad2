@@ -35,9 +35,6 @@ body{
     margin: 50px;
 }
 
-/* .fondo{
-    background-image: url(imagenes/fondoimg4.jpg);
-} */
 .Titulo-producto{  
     text-align: center;
     display: flex; 
@@ -51,10 +48,6 @@ body{
     height: 50%;
     margin: 0px 0% 0% 27%;
 }
-
-/* .form-inline{
-    background-color: rgb(245, 142, 188);
-} */
 
 .Descripción-producto{
     display: flex;
